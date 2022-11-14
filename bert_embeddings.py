@@ -78,4 +78,4 @@ def generate_embeddings(input_file_path, output_embeddings_file_path, output_met
 input_file_path = 'output.txt'
 output_embeddings_file_path = 'embeddings_'
 output_metadata_file_path = 'metadata_'
-generate_embeddings(input_file_path, output_embeddings_file_path, output_metadata_file_path, batch_size=3)
+generate_embeddings(input_file_path, output_embeddings_file_path, output_metadata_file_path)
