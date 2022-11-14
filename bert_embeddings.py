@@ -4,12 +4,6 @@ import tensorflow_text as text
 import math
 import numpy as np
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-from time import time
-import cProfile
-
 preprocessor = hub.load('https://tfhub.dev/tensorflow/bert_multi_cased_preprocess/3')
 bert = hub.load('https://tfhub.dev/tensorflow/bert_multi_cased_L-12_H-768_A-12/4')
 
